@@ -19,8 +19,6 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 
-
-
 -- Create Orders Table with Foreign Key
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
